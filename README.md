@@ -3,6 +3,11 @@
 Welcome to **Gossips**, a real-time chatting application built with cutting-edge web technologies. This app allows users to connect, chat, and share moments seamlessly in real time.
 
 ---
+## Live Demo
+
+Check out the deployed app here: [Live Demo](https://chat-app-sne7.onrender.com)
+
+---
 
 ## Features
 
