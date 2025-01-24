@@ -63,61 +63,67 @@ Follow these steps to set up the project on your local machine:
 2. Install dependencies for both frontend and backend:
 
 Navigate to the frontend folder:
-  
+   ```bash
+   git clone https://github.com/username/chatting-app.git
+   cd chatting-app
+```
+```bash
   cd frontend
   npm install
-
+```
 Navigate to the backend folder:
-
+```bash
 cd backend
 npm install
-
+```
 3. Set up environment variables:
 
 Create a .env file in the backend folder with the following:
-
+```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 CLOUDINARY_NAME=your_cloudinary_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+```
 4. Start the application:
 
 Start the backend server:
-
+```
 npm run dev
-
+```
 Start the frontend server:
-
+```
 cd frontend
 npm run dev
-
+```
 Open your browser and navigate to http://localhost:3000.
 
 Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Commit your changes (git commit -m "Added a new feature").
-Push to the branch (git push origin feature/your-feature-name).
+## Fork the repository.
+
+💡 **Tip:** Make sure to set up your `.env` file correctly before starting the application to avoid configuration errors.
+
+Create a new branch (git checkout -b feature/your-feature-name).  
+Commit your changes (git commit -m "Added a new feature").  
+Push to the branch (git push origin feature/your-feature-name).  
 Open a pull request.
 
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
 For questions or feedback, feel free to reach out:
 
-Name: Aditi Baghel
-Email: aditibaghel2k323@gmail.com
+Name: Aditi Baghel  
+Email: aditibaghel2k323@gmail.com  
 GitHub: https://github.com/aditi644
 
 
-Acknowledgments
-Special thanks to the open-source libraries and tools that made this project possible.
-Special thanks to the "As a programmer" youtube channel for giving guidance for deploying and creating this application.
+## Acknowledgments 
+
+- Special thanks to the open-source libraries and tools that made this project possible.  
+- Special thanks to the "As a programmer" youtube channel for giving guidance for deploying and creating this application.
 ---
 
 ### **Suggestions for Your Specific Chatting App**
